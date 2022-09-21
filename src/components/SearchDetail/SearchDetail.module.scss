@@ -1,0 +1,41 @@
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 100px;
+  width: 450px;
+  height: 30px;
+  border-radius: 20px;
+
+  .inputSearch {
+    position: absolute;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    height: 32px;
+    width: 400px;
+  }
+
+  
+  .buttonSearch{
+    width: 65px;
+    padding: 0px 8px;
+    font-size: 14px;
+    left: 235px;
+    background-color: #2F2F2F;
+    color: #fff;
+    border: none;
+
+    &:hover{
+      background-color: #2F2F2F;
+    }
+  }
+
+  .clearSearch{
+    position: relative;
+    background-color: #000;
+    left: 220px;
+    cursor: pointer;
+  }
+
+}

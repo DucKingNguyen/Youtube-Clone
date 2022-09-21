@@ -1,0 +1,64 @@
+.wrapper{
+  position: relative;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  .inner{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #000;
+  }
+  .reactPlayer{
+    margin: 20px 15px;
+  }
+  .videoSideBar{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* left: -36px; */
+    margin: 0px 10px;
+    right: 25px;
+  }
+
+  .title {
+    color: #fff;
+  }
+
+  .decription{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 15px;
+    color: #fff;
+
+    .titleVideo{
+      padding: 5px 0px;
+    }
+
+    .channelVideo{
+      padding: 5px 0px;
+
+      .checkCrircle{
+        padding: 0px 5px;
+        font-size: 14px;
+       
+      }
+    }
+  }
+
+  .boxBtn{
+    margin: 5px 15px;
+    
+    .likeBtn{
+      cursor: pointer;
+      font-size: 16px;
+
+      .likeIcon{
+        padding: 5px 5px;
+        font-size: 25px;
+
+      }
+    }
+  }
+  
+}

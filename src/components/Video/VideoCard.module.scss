@@ -1,0 +1,49 @@
+
+.cardVideo{
+    position: relative;
+    width: 288px;
+    // height: 240px;
+    border: none;
+    transition: transform .9s;
+    
+    &:hover  {
+      // animation: 5s;
+      transform: scale(1, 1.1); 
+      // transform: scaleY(1, 1.2); 
+      transition: .5s;
+      margin-left: 15px;
+        
+    }
+
+  
+  .imgVideo {
+
+    width: 288px;
+    padding: 5px;
+  }
+
+  .titleCard{
+    width: 220px;
+    height: 60px;
+    word-wrap:break-word;
+  }
+  
+}
+
+.contentVideo{
+  display: flex;
+  position: relative;
+  right: 5px;
+
+  .avaIcon{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .checked {
+    background-color: gray;
+  }
+}
+

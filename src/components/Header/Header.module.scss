@@ -1,0 +1,50 @@
+.header{
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background-color: #202020;
+  color: #fff;
+  position: fixed;
+  z-index: 1;
+  width: -webkit-fill-available;
+  
+  .logo{
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+    // flex: 1;
+    // margin: 0 40px;
+  }
+
+
+  .header-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    cursor: pointer;
+    
+    .createVideo {
+      margin-right: 10px;
+      padding: 8px;
+      font-size: 24px;
+    } 
+    
+    .account{
+      margin-left: 8px;
+    }
+  }
+}
+
+// .searchResult{
+//   width: 390px;
+//   position: relative;
+//   right: 30px;
+//   min-height: 250px;
+//   margin-top: -5px;
+//   background-color: #fff;
+// }
+
+

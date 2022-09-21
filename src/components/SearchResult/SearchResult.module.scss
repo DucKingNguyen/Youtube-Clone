@@ -1,0 +1,33 @@
+
+.searchResult{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 500;
+  height: auto;
+  cursor: pointer;
+  
+  &:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  // .searchBtn{
+  //   color: rgba(39, 141, 246, 0.53);
+  //   line-height: 40px;
+  //   margin-right: 10px;
+  //   background-color: transparent;
+  //   border: none;
+  //   outline: none;
+  //   cursor: pointer;
+
+  //   &:hover {
+  //     color: rgba(39, 141, 246, 0.86)
+  //   }
+  // }
+}
+
+h3 {
+  line-height: 40px;
+  margin: 0px 10px;
+
+}
